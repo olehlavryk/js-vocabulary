@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Simple JavaScript Vocabulary</title>
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,600,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+    <link rel="stylesheet" href="./css/style.css">
+    
+</head>
+<body>
+    <div class="wrapper">
+        <h1>My English-Ukrainian Vocabulary</h1>
+        <div class="inputs-block">
+            <div class="input-item">
+                <div class="input-item-title">
+                    Word
+                </div>
+                <input type="text" id="eng" class="input">
+            </div>
+            <div class="input-item">
+                <div class="input-item-title">
+                    Translation
+                </div>
+                <input type="text" id="ua" class="input">
+            </div>
+            <div class="btn-wrapper">
+                <button id="add-word-btn">Add Word</button>
+            </div>
+        </div>
+    
+        <h2>Saved Words:</h2>
+        <div class="table-block">
+            <table id="table">
+                <thead>
+                    <tr>
+                        <th>Word</th>
+                        <th>Translation</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </div>
+    </div>
+    
+
+    <script src="./js/index.js"></script>
+</body>
+</html>
